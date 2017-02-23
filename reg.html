@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人注册</title>
+<link href="font_g88qhqmdshujif6r/iconfont.css" rel="stylesheet" type="text/css">
+<link href="css/reg.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+
+<div class="border_first">
+	<div class="border_second">
+        <div class="first_left"><a href="index.html"><img src="img/login_img1.png"></a><div class="first_div1">欢迎注册</div></div>
+        <div class="first_right"><span>已有账号？</span><a href="login.html">请登录</a></div>
+	</div>
+</div><!--border_first   end-->
+
+<div class="border_third">
+    <div class="border_forth">
+        <div class="third_left">
+            <div>
+                <span>用户名</span>
+                <input class="third-input1" type="text" name="user_name" value="" placeholder="您的账户名和登录名">
+            </div>
+            <div>
+                <span>设置密码</span>
+                <input type="password" name="user_psd" value="" placeholder="建议至少使用两种字符组合">
+            </div>
+            <div>
+                <span>确认密码</span>
+                <input class="third_input3" type="password" name="user_psd2" value="" placeholder="请再次输入密码">
+            </div>
+            <div class="dingwei">
+                <span class="third_span1">中国0086</span><i class="iconfont span1" onClick="zhongguo()">&#xe65e;</i>
+                <input type="text" name="phone" value="" placeholder="建议使用常用手机">
+                <p class="dis_none">122333</p>
+            </div>
+            <div class="div1"><a href="#">邮箱验证</a></div>
+            <div>
+                <span>验证码</span>
+                <input class="third_input1" type="text" name="yanzheng" value="" placeholder="请输入验证码">
+                <span>dsfd</span>
+            </div>
+            <div>
+                <span>手机验证码</span>
+                <input class="third_input1" type="text" name="shouji" value="" placeholder="请输入手机验证码">
+                <span class="third_span2">获取手机验证码</span>
+            </div>
+            <div>
+            <input class="third_input2" type="checkbox">我已阅读并同意<a class="third_a1" herf="#">《京东用户注册协议》</a>
+            </div>
+            <div class="div2">
+            <input class="reg_button" type="button" value="立即注册">
+            </div>
+        </div><!--third_left   end-->
+        <div class="third_right">
+            <div class="third_div1"><a href="#">企业注册</a></div>
+            <div class="third_div2"><a href="#"><p>INTERNATIONAL</p>CUSTOMERS</a></div>
+            <div class="third_div3"><img src="img/phone.jpg"></div>
+        </div>
+    </div>
+<div class="border_bottom">
+    <ul>
+    <li>关于我们</li>
+    <li>联系我们</li>
+    <li>人才招聘</li>
+    <li>商家入驻</li>
+    <li>广告服务</li>
+    <li>手机京东</li>
+    <li>友情链接</li>
+    <li>销售联盟</li>
+    <li>京东社区</li>
+    <li>京东公益</li>
+    <li>English Site</li>
+    </ul>
+</div>
+<div class="border_end">
+Copyright © 2004-2016  京东JD.com 版权所有         
+</div>
+<script>
+function zhongguo(){
+$('.dis_none').css('display','block');
+}
+</script>
+</body>
+</html>
